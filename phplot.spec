@@ -5,7 +5,7 @@ Version:	4.4.6
 Release:	2
 Group:		Libraries
 License:	GPL/PHP
-Source0:	http://prdownloads.sourceforge.net/phplot/%{name}-%{version}.tar.gz
+Source0:	http://dl.sourceforge.net/phplot/%{name}-%{version}.tar.gz
 URL:		http://www.sourceforge.net/projects/phplot/
 Requires:	php-common
 Requires:	php-gd
