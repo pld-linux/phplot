@@ -4,13 +4,6 @@ Name:		phplot
 Version:	4.4.6
 Release:	1
 Group:		Libraries
-Group(de):	Libraries
-Group(es):	Bibliotecas
-Group(fr):	Librairies
-Group(pl):	Biblioteki
-Group(pt_BR):	Bibliotecas
-Group(ru):	Библиотеки
-Group(uk):	Б╕бл╕отеки
 License:	GPL and PHP
 Source0:	http://prdownloads.sourceforge.net/phplot/%{name}-%{version}.tar.gz
 URL:		http://www.sourceforge.net/projects/phplot/
