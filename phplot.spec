@@ -2,7 +2,7 @@ Summary:	Class for creating esientific and business charts
 Summary(pl):	Klasa do tworzenia naukowych i biznesowych wykresów
 Name:		phplot
 Version:	4.4.6
-Release:	2
+Release:	3
 Group:		Libraries
 License:	GPL/PHP
 Source0:	http://dl.sourceforge.net/phplot/%{name}-%{version}.tar.gz
