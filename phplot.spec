@@ -6,6 +6,7 @@ Release:	2
 Group:		Libraries
 License:	GPL/PHP
 Source0:	http://dl.sourceforge.net/phplot/%{name}-%{version}.tar.gz
+# Source0-md5:	8a5b34e09fa29f20e31814cbd8c0d0b5
 URL:		http://www.sourceforge.net/projects/phplot/
 Requires:	php-common
 Requires:	php-gd
