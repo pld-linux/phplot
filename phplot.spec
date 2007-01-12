@@ -1,18 +1,17 @@
 #
 # NOTES: - draws unwanted, additional X labels in comparison with 4.4.6
-#	 - rpm marcos are to smart for distfiles parser
 #
-%define		_rc 3
+%define		_rc rc3
 %define		_manual 20061201
 #
 Summary:	Class for creating esientific and business charts
 Summary(pl):	Klasa do tworzenia naukowych i biznesowych wykresów
 Name:		phplot
 Version:	5.0
-Release:	%{?_rc:0.rc%{_rc}}.0.1
+Release:	0.%{_rc}.0.1
 License:	GPL/PHP
 Group:		Libraries
-Source0:	http://dl.sourceforge.net/phplot/%{name}-%{version}%{?_rc:rc%{_rc}}.tar.gz
+Source0:	http://dl.sourceforge.net/phplot/%{name}-%{version}%{_rc}.tar.gz
 # Source0-md5:	ddd9f4877c6f0a0b629ada1ce2bc4772
 Source1:	http://dl.sourceforge.net/phplot/phplotdocs-%{_manual}.zip
 # Source1-md5:	61cd9ef5fa6ac1c74d98b85fb7af816a
@@ -32,7 +31,7 @@ This routine is a class for creating scientific and business charts.
 Klasa do tworzenia naukowych i biznesowych wykresów.
 
 %prep
-%setup -q -n %{name}-%{version}%{?_rc:rc%{_rc}} -a1 
+%setup -q -n %{name}-%{version}%{_rc} -a1 
 
 %install
 rm -rf $RPM_BUILD_ROOT
