@@ -1,4 +1,7 @@
 #
+# NOTES: - draws unwanted, additional X labels in comparison with 4.4.6
+#	 - rpm marcos are to smart for distfiles parser
+#
 %define		_rc 3
 %define		_manual 20061201
 #
