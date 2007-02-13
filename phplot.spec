@@ -5,7 +5,7 @@
 %define		_manual 20061201
 #
 Summary:	Class for creating esientific and business charts
-Summary(pl.UTF-8):   Klasa do tworzenia naukowych i biznesowych wykresów
+Summary(pl.UTF-8):	Klasa do tworzenia naukowych i biznesowych wykresów
 Name:		phplot
 Version:	5.0
 Release:	0.%{_rc}.0.1
