@@ -16,7 +16,7 @@ Source1:	http://dl.sourceforge.net/phplot/%{name}docs-%{manual}.zip
 URL:		http://www.sourceforge.net/projects/phplot/
 BuildRequires:	rpmbuild(macros) >= 1.461
 BuildRequires:	unzip
-Requires:	php-common
+Requires:	php-common >= 4:5.2
 Requires:	php-gd
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
