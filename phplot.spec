@@ -1,18 +1,18 @@
 # NOTES
 #  - draws unwanted, additional X labels in comparison with 4.4.6
 
-%define		manual 20090614
+%define		manual 20100830
 Summary:	Class for creating esientific and business charts
 Summary(pl.UTF-8):	Klasa do tworzenia naukowych i biznesowych wykresów
 Name:		phplot
-Version:	5.0.7
+Version:	5.1.3
 Release:	1
 License:	GPL/PHP
 Group:		Libraries
 Source0:	http://dl.sourceforge.net/phplot/%{name}-%{version}.tar.gz
-# Source0-md5:	c19b733fed664014cc1e4e2c6ae3bf44
+# Source0-md5:	64c2f894147e2804e635cff241788c2d
 Source1:	http://dl.sourceforge.net/phplot/%{name}docs-%{manual}.zip
-# Source1-md5:	b2efead25f95f4e263011cfa1756a4da
+# Source1-md5:	d0c99e080d2d40f352de7ea4e46e1387
 URL:		http://www.sourceforge.net/projects/phplot/
 BuildRequires:	rpmbuild(macros) >= 1.461
 BuildRequires:	unzip
