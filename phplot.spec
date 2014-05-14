@@ -8,7 +8,7 @@ Summary:	Class for creating esientific and business charts
 Summary(pl.UTF-8):	Klasa do tworzenia naukowych i biznesowych wykresów
 Name:		phplot
 Version:	5.8.0
-Release:	4
+Release:	5
 License:	LGPL v2.1, PHP
 Group:		Libraries
 Source0:	http://downloads.sourceforge.net/phplot/%{name}-%{version}.tar.gz
@@ -20,9 +20,9 @@ BuildRequires:	rpm-php-pearprov >= 4.4.2-11
 BuildRequires:	rpmbuild(macros) >= 1.461
 BuildRequires:	unzip
 Requires:	php(core) >= %{php_min_version}
+Requires:	php(date)
 Requires:	php(gd)
 Requires:	php(pcre)
-Requires:	php-date
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
