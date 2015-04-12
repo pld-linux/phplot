@@ -1,20 +1,19 @@
 # NOTES
 #  - draws unwanted, additional X labels in comparison with 4.4.6
 
-%define		manual 20120406
 %define		php_min_version 5.2.0
 %include	/usr/lib/rpm/macros.php
 Summary:	Class for creating esientific and business charts
 Summary(pl.UTF-8):	Klasa do tworzenia naukowych i biznesowych wykresów
 Name:		phplot
-Version:	5.8.0
-Release:	5
+Version:	6.1.0
+Release:	1
 License:	LGPL v2.1, PHP
 Group:		Libraries
 Source0:	http://downloads.sourceforge.net/phplot/%{name}-%{version}.tar.gz
-# Source0-md5:	68455792781f35ff166697f29e0c822c
-Source1:	http://downloads.sourceforge.net/phplot/%{name}docs-%{manual}.zip
-# Source1-md5:	a9f513261fe98dc3ba61ff7f41c1eeea
+# Source0-md5:	4728b0f777e44b5a5aa64397bbd50b1b
+Source1:	http://downloads.sourceforge.net/phplot/%{name}docs-20130511.zip
+# Source1-md5:	a3f4fa315491811547bd8d7257db62b1
 URL:		http://phplot.sourceforge.net/
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
 BuildRequires:	rpmbuild(macros) >= 1.461
