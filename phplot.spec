@@ -12,8 +12,8 @@ License:	LGPL v2.1, PHP
 Group:		Libraries
 Source0:	https://downloads.sourceforge.net/phplot/%{name}-%{version}.tar.gz
 # Source0-md5:	a53917038aac2d3d0ccb4b148179c894
-Source1:	http://downloads.sourceforge.net/phplot/%{name}docs-20130511.zip
-# Source1-md5:	a3f4fa315491811547bd8d7257db62b1
+Source1:	https://downloads.sourceforge.net/phplot/%{name}docs-20151105.zip
+# Source1-md5:	0c3af626c64ac2c55bdb3acd273d358b
 URL:		http://phplot.sourceforge.net/
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
 BuildRequires:	rpmbuild(macros) >= 1.461
@@ -40,13 +40,13 @@ Point and other plot types.
 Klasa do tworzenia naukowych i biznesowych wykresów.
 
 %package phpdoc
-Summary:	Online manual for phplot
+Summary:	PHPlot Reference Manual
 Summary(pl.UTF-8):	Dokumentacja online do phplot
 Group:		Documentation
 Requires:	php-dirs
 
 %description phpdoc
-Documentation for phplot.
+PHPlot Reference Manual.
 
 %description phpdoc -l pl.UTF-8
 Dokumentacja do phplot.
