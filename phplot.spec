@@ -2,7 +2,6 @@
 #  - draws unwanted, additional X labels in comparison with 4.4.6
 
 %define		php_min_version 5.2.0
-%include	/usr/lib/rpm/macros.php
 Summary:	Class for creating esientific and business charts
 Summary(pl.UTF-8):	Klasa do tworzenia naukowych i biznesowych wykresów
 Name:		phplot
